@@ -1,3 +1,52 @@
-.red {
-    color: red;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  background-color: #4CAF50;
+  padding: 10px;
+  text-align: left;
+}
+
+.home-button {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 50px); 
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
 }
