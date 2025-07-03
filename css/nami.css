@@ -1,0 +1,24 @@
+body {
+    background-image: url("https://illust-stock.com/wp-content/uploads/frame-inu-asiato.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.kiro {
+    color: rgb(229, 229, 111);
+}
+
+.midori {
+    color: rgb(143, 232, 143);
+}
+
+.pinnku {
+    color: rgb(244, 136, 240);
+}
+
+.ao {
+    color: lightskyblue;
+}
