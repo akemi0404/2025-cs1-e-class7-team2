@@ -22,3 +22,25 @@ body {
 .ao {
     color: lightskyblue;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    /* 縦位置を中央に */
+    gap: 20px;
+    /* 写真と文の間のスペース */
+    padding: 20px;
+}
+
+.container img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
