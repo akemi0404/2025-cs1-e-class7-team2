@@ -1,0 +1,46 @@
+body {
+    background-image: url("https://illust-stock.com/wp-content/uploads/frame-inu-asiato.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.kiro {
+    color: rgb(229, 229, 111);
+}
+
+.midori {
+    color: rgb(143, 232, 143);
+}
+
+.pinnku {
+    color: rgb(244, 136, 240);
+}
+
+.ao {
+    color: lightskyblue;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    /* 縦位置を中央に */
+    gap: 20px;
+    /* 写真と文の間のスペース */
+    padding: 20px;
+}
+
+.container img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
